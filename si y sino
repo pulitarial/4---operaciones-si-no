@@ -1,0 +1,13 @@
+Algoritmo sin_titulo
+	definir a, b, resultado Como Entero;
+	a = 11;
+	b = 2;
+	resultado = 0;
+	resultado = a + b; 
+	
+	Si resultado <= 10 Entonces
+		escribir resultado 
+	SiNo
+		escribir "error"
+	Fin Si;
+FinAlgoritmo
