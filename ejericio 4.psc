@@ -4,19 +4,20 @@ Algoritmo ejercicio_4
 	definir tengo_paraguas como logico;
 	tengo_paraguas = falso;
 	
-	escribir "Indique si el pronÛstico indica lluvia al dÌas siguiente como V/F";
+	escribir "Indique si el pron√≥stico indica lluvia al d√≠as siguiente como V/F";
 	leer llueve;
 	
 	
-	Si llueve Entonces escribir "Indique si tiene a mano el paraguas poara salir con V/F";
+	Si llueve Entonces 
+		escribir "Indique si tiene a mano el paraguas poara salir con V/F"
 		leer tengo_paraguas;
-		Si tengo_paraguas Entonces
-			escribir " Est· lloviendo, a correr!! ";
-		SiNo
-			escribir " Est· lloviendo, agarrar el paraguas!!";
-		Fin Si
-	sino 
-		escribir " No llueve!! :)";
+				Si llueve y tengo_paraguas Entonces
+					escribir " Est√° lloviendo, a correr!! ";
+				SiNo
+					escribir " Est√° lloviendo, agarrar el paraguas!!";
+				Fin Si
+		sino 
+			escribir " No llueve!! :)";
 	fin si
 	
 FinAlgoritmo
