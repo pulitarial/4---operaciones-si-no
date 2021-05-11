@@ -6,10 +6,10 @@ Algoritmo ejercicio_4
 		
 		escribir "Indique si el pronóstico indica lluvia al días siguiente como V/F";
 		leer llueve;
-		escribir "Indique si tiene a mano el paraguas poara salir con V/F";
-		leer tengo_paraguas;
+	
 		
-		Si llueve Entonces
+		Si llueve Entonces escribir "Indique si tiene a mano el paraguas poara salir con V/F";
+			leer tengo_paraguas;
 			Si tengo_paraguas Entonces
 				escribir " Está lloviendo, a correr!! ";
 			SiNo
