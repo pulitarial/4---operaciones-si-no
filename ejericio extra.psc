@@ -6,11 +6,12 @@ Algoritmo ejercicio_extra
 	definir llego_paquete como logico;
 	llego_paquete = v;
 	
-	escribir " Indique si su paquete llegó con v/f"
+	escribir " Indique si su paquete llegÃ³ con v/f"
 	leer llego_paquete;
 	
 	Si  no llego_paquete Entonces
 		escribir "El paquete no llego! >:( ";
+		escribir " Estrellas : 0!!";
 	siNo
 		escribir "indique cuanto demoro la entrega"
 		leer tiempo_entrega;
